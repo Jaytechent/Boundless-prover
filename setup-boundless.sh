@@ -123,8 +123,6 @@ RPC_URL=${RPC_URL}
 ORDER_STREAM_URL=${ORDER_STREAM_URL}
 EOF
 
-# Step 10: Move into boundless folder to prep for run
-cd "$(pwd)/boundless"
 
 echo ""
 echo "🎉 Setup complete!"
