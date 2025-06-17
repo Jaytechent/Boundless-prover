@@ -39,7 +39,7 @@ fi
 
 # Start the broker
 echo "🚀 Starting Boundless broker with .env.broker..."
-just broker up ./.env.broker
+export $(grep -v '^#' .env.broker | xargs) && just broker up
 
 echo ""
 echo "✅ Broker running!"
