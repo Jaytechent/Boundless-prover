@@ -31,8 +31,8 @@ echo "→ Verifier: $VERIFIER_ADDRESS"
 # Optional stake deposit
 read -p "Do you want to deposit 10 USDC as stake now? (yes/no): " CONFIRM
 if [ "$CONFIRM" == "yes" ]; then
-    echo "Depositing 10 USDC (10000000 base units)..."
-    boundless account deposit-stake 10000000 --rpc "$RPC_URL"
+    echo "Depositing 10 USDC ..."
+    boundless account deposit-stake 10 --rpc "$RPC_URL"
 else
     echo ">>> Skipping stake deposit."
 fi
