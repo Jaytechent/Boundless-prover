@@ -102,6 +102,14 @@ You'll be prompted to paste:
 * After a succesful installation, you should see something like this:
 ![image](https://github.com/user-attachments/assets/666cbcd4-b2ef-448e-9c77-2ad9521bbfeb)
 
+
+
+Before the prover, load the env with
+
+```bash
+source .env.broker
+```
+
 🏃 Step 3: Run Boundless Prover Node
 Once setup is complete, run this command to start the prover:
 
