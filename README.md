@@ -53,6 +53,9 @@ Use a machine like an Alienware M18 or a desktop with an RTX 4090 for best perfo
 If you're new to GPU rentals, check this repo on how to rent Vastai:  
 👉 [Rent a GPU](https://github.com/Jaytechent/Rent-Graphic-Processing-Unit.git)
 
+
+
+
 ---
 
 ## 🔧 Step 1: Clone the Repository
@@ -76,7 +79,27 @@ This step will:
 
 - Create an .env.broker file with your secrets and environment variables
 
-**Ask for your private key, RPC URL, market address, verifier address, and order stream URL (This is used to create .env.broker file. For every chain on Boundless, there are separate values for these parameters depending on the chain you want to run on.  [Click here]([https://github.com/Jaytechent/Rent-Graphic-Processing-Unit.git](https://docs.beboundless.xyz/developers/smart-contracts/deployments)) to get the values for the chain you want to run**
+## Setup Instructions
+
+To run this project, you'll need the following environment variables to create a `.env.broker` file:
+
+- `PRIVATE_KEY`
+- `RPC_URL`
+- `MARKET_ADDRESS`
+- `VERIFIER_ADDRESS`
+- `ORDER_STREAM_URL`
+
+> ⚠️ **Note:** These values are different for each supported blockchain on Boundless. Make sure you use the correct values for the specific chain you intend to use.
+
+👉 [**Click here to get the values**](https://docs.beboundless.xyz/developers/smart-contracts/deployments)
+
+---
+
+## Rent a GPU
+
+If you need to rent a GPU for this project:
+
+👉 [**Click here to rent a GPU**](https://github.com/Jaytechent/Rent-Graphic-Processing-Unit.git)
 
 *NB: To get role prover and developer roles, you need to run on Base mainnet.*
 
